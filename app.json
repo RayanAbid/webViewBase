@@ -17,16 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rayanabid.muspakistan"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rayanabid.muspakistan"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "this is a webview "
   }
 }
